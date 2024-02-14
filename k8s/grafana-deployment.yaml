@@ -5,7 +5,6 @@ metadata:
   labels:
     app: grafana
   name: grafana
-  namespace: fampay
 spec:
   replicas: 1
   selector:
@@ -32,7 +31,6 @@ metadata:
   labels:
     app: grafana
   name: grafana
-  namespace: fampay
 spec:
   ports:
   - name: "3000"
