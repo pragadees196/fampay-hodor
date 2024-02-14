@@ -3,7 +3,6 @@ kind: Ingress
 metadata:
   creationTimestamp: null
   name: hodor
-  namespace: fampay
   annotations:
     nginx.ingress.kubernetes.io/use-regex: "true"
     nginx.ingress.kubernetes.io/rewrite-target: /
