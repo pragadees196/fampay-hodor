@@ -1,6 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
+  namespace: hodor-acd
   creationTimestamp: null
   name: hodor
 spec:
