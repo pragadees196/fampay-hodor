@@ -5,7 +5,6 @@ metadata:
   labels:
     app: hodor
   name: hodor
-  namespace: hodor-acd
 spec:
   replicas: 1
   selector:
@@ -41,7 +40,6 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: hodor-acd
   name: hodor-hpa-service
   labels:
     app: hodor
