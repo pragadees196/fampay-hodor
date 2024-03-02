@@ -24,7 +24,7 @@ spec:
       imagePullSecrets:
       - name: docker
       containers:
-      - image: pragadeesh196/hodr1:2
+      - image: pragadeesh196/hodr1:5
         name: hodr1
         ports:
         - containerPort: 8081
