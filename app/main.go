@@ -59,7 +59,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	case http.MethodGet, http.MethodPost:
 		// Respond with "Hodor" for both GET and POST requests
 		time.Sleep(randomSleepDuration())
-		fmt.Fprint(w, "hodor... hodor... hodor")
+		fmt.Fprint(w, "hodor... hodor... Pragadees")
 	default:
 		// Respond with a 405 Method Not Allowed for other request methods
 		http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
